@@ -1,3 +1,26 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+homepage:
+    path: /
+    controller: App\Controller\IndexController::index
+
+app_register:
+  path: /register
+  controller: App\Controller\RegistrationController::register
+
+app_login:
+  path: /login
+  controller: App\Controller\SecurityController::login
+
+app_logout:
+  path: /logout
+  controller: App\Controller\SecurityController::logout
+  methods: GET
+
+api_register:
+  path: /api/register
+  controller: App\Controller\APIController::register
+  methods: POST
+
+api_check_email:
+  path: /api/check_email
+  controller: App\Controller\APIController::check_email
+  methods: POST

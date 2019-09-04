@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+
+        {% if data | length > 0 %}
+
+        <h2>Words counter</h2>
+
+        <div class="mb-5">
+            {% for word, num in data.words_count %}
+            <div class="btn btn-success mb-1">
+                {{ word }} <span class="badge badge-light">{{ num }}</span>
+            </div>
+            {% endfor %}
+        </div>
+
+        <h2>{{ data.title }} RSS feed</h2>
+        <h4>{{ data.subtitle }}</h4>
+        <h5><a href="{{ data.link[1]['@attributes']['href'] }}">{{ data.link[1]['@attributes']['href'] }}</a></h5>
+
+        <div class="mb-5">
+            {% for item in data.entry %}
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">{{ item.title | raw }}</h3>
+                    {{ item.summary | raw }}
+                    <a href="{{ item.link['@attributes']['href'] }}" class="btn btn-primary">Learn more...</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+            <h4>Sorry, RSS source is not available now.</h4>
+        {% endif %}
+
+
+    {% else %}
+        <h1>Welcome to my test task for mintos.com!</h1>
+        <h4>Please, <a href="{{ path('app_login') }}">login</a> or <a href="/register">register</a> to view page content</h4>
+    {% endif %}
+
+{% endblock %}
