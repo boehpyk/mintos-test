@@ -11,7 +11,8 @@ Technologies used:
 * go to the project directory
 * run `composer install`
 * run `yarn install`
-* set MySQL connection in `.env` file
+* run `cp .env.template .env`
+* set MySQL connection in `.env` file 
 * run `php bin/console doctrine:migrations:migrate` to create MySQL tables
 * run `php bin/console doctrine:fixtures:load` to load common English words list into database
 * run `yarn run build`

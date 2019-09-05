@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4eaa9a1-b44f-48e5-bb8b-27eae3dbc452" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.template" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,28 +31,29 @@
         <counts>
           <entry key="babelrc" value="1" />
           <entry key="css" value="1" />
-          <entry key="env" value="3" />
+          <entry key="env" value="4" />
           <entry key="gitignore" value="1" />
           <entry key="js" value="8" />
           <entry key="json" value="5" />
           <entry key="log" value="3" />
-          <entry key="md" value="2" />
+          <entry key="md" value="3" />
           <entry key="php" value="37" />
           <entry key="qqq" value="1" />
           <entry key="scss" value="7" />
+          <entry key="template" value="1" />
           <entry key="twig" value="21" />
           <entry key="yaml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="3" />
+          <entry key=".env file" value="5" />
           <entry key="CSS" value="1" />
           <entry key="Git file" value="1" />
           <entry key="JSON" value="6" />
           <entry key="JavaScript" value="8" />
           <entry key="Log" value="3" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
           <entry key="PHP" value="37" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="7" />
@@ -70,25 +70,26 @@
           <entry key="js" value="799" />
           <entry key="json" value="20" />
           <entry key="log" value="3" />
-          <entry key="md" value="459" />
+          <entry key="md" value="512" />
           <entry key="php" value="5692" />
           <entry key="qqq" value="20" />
           <entry key="scss" value="202" />
+          <entry key="template" value="64" />
           <entry key="twig" value="1071" />
-          <entry key="txt" value="38" />
+          <entry key="txt" value="43" />
           <entry key="yaml" value="223" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key=".env file" value="29" />
+          <entry key=".env file" value="93" />
           <entry key="Git file" value="7" />
           <entry key="JSON" value="21" />
           <entry key="JavaScript" value="799" />
           <entry key="Log" value="3" />
-          <entry key="Markdown" value="459" />
+          <entry key="Markdown" value="512" />
           <entry key="PHP" value="5692" />
-          <entry key="PLAIN_TEXT" value="74" />
+          <entry key="PLAIN_TEXT" value="79" />
           <entry key="SCSS" value="202" />
           <entry key="Twig" value="1071" />
           <entry key="YAML" value="223" />
@@ -108,11 +109,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="210">
+                <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/.env.template">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="450">
+              <caret line="30" column="70" lean-forward="true" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -179,8 +192,9 @@
         <option value="$PROJECT_DIR$/config/packages/security.yaml" />
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/tests/IndexControllerTest.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.env.template" />
       </list>
     </option>
   </component>
@@ -368,6 +382,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/Controller" />
       <recent name="$PROJECT_DIR$/src/Service" />
       <recent name="$PROJECT_DIR$/src" />
@@ -399,7 +414,7 @@
       <workItem from="1567242806752" duration="16069000" />
       <workItem from="1567430186319" duration="10878000" />
       <workItem from="1567494814819" duration="27253000" />
-      <workItem from="1567693505200" duration="1134000" />
+      <workItem from="1567693505200" duration="1757000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1567605232292</created>
@@ -422,11 +437,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567693974851</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed README">
+      <created>1567694718763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567694718763</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55334000" />
+    <option name="totallyTimeSpent" value="55957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="948" extended-state="6" />
@@ -469,7 +491,8 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Added README" />
     <MESSAGE value="Fixed README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed README" />
+    <MESSAGE value=".gitignore fix" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/css/components/_Header.scss">
@@ -512,13 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -759,13 +775,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="11" selection-end-line="37" />
         </state>
       </provider>
     </entry>
@@ -773,6 +786,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="70" lean-forward="true" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
         </state>
       </provider>
     </entry>
