@@ -14,6 +14,7 @@ Technologies used:
 * set MySQL connection in `.env` file
 * run `php bin/console doctrine:migrations:migrate` to create MySQL tables
 * run `php bin/console doctrine:fixtures:load` to load common English words list into database
+* run `yarn run build`
 * go to `http://127.0.0.1:8000`
 
 
