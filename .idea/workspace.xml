@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4eaa9a1-b44f-48e5-bb8b-27eae3dbc452" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="e4eaa9a1-b44f-48e5-bb8b-27eae3dbc452" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +16,7 @@
     <session id="647628430">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.66" value="1" />
@@ -405,7 +402,7 @@
       <workItem from="1567242806752" duration="16069000" />
       <workItem from="1567430186319" duration="10878000" />
       <workItem from="1567494814819" duration="27253000" />
-      <workItem from="1567693505200" duration="2270000" />
+      <workItem from="1567693505200" duration="2296000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1567605232292</created>
@@ -442,11 +439,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567695350440</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="README fix">
+      <created>1567696061475</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567696061475</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56470000" />
+    <option name="totallyTimeSpent" value="56496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="948" extended-state="6" />
@@ -486,6 +490,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="First commit" />
     <MESSAGE value="Added README" />
     <MESSAGE value="Fixed README" />
