@@ -9,10 +9,10 @@ Technologies used:
 ## Installation
 * clone https://github.com/boehpyk/mintos-test.git
 * go to the project directory
-* run `composer install`
-* run `yarn install`
 * run `cp .env.template .env`
 * set MySQL connection in `.env` file 
+* run `composer install`
+* run `yarn install`
 * run `php bin/console doctrine:migrations:migrate` to create MySQL tables
 * run `php bin/console doctrine:fixtures:load` to load common English words list into database
 * run `yarn run build`
